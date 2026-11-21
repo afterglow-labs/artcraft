@@ -1,7 +1,5 @@
 name: ArtCraft Linux release
 on:
-  push:
-    branches: [release, artcraft-release, artcraft-linux]
   workflow_dispatch:
 permissions:
   contents: read

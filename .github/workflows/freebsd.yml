@@ -4,10 +4,6 @@ name: FreeBSD
 
 # The VM build is slow, so it runs nightly on main and on pushes to `release`, not on pull requests.
 on:
-  schedule:
-    - cron: "27 4 * * *"
-  push:
-    branches: [release]
   workflow_dispatch:
 
 concurrency:
